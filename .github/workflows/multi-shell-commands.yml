@@ -1,0 +1,11 @@
+name: Multi Shell commands
+on: workflow_dispatch
+
+jobs:
+  multi-shell job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mutli-shell steps
+        run: |
+          echo "Hello World"
+          echo "Goodbye world"
